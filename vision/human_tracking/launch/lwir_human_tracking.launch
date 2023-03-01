@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="lwir_human_tracking_node" pkg="human_tracking" type="lwir_human_tracking.py">
+  </node>
+
+</launch>

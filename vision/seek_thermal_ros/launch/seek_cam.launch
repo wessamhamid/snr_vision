@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="seek_cam_node" pkg="seek_thermal_ros" type="ros-seekcamera-opencv.py">
+  </node>
+
+</launch>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>human_tracking</name>
+  <version>0.0.0</version>
+  <description>A human_tracking package for RGB and LWIR cameras</description>
+
+  <maintainer email="wessamhamid200@gmail.com">Wessam Hamid</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>import</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>import</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>import</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+</package>
